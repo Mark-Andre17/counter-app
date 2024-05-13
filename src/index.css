@@ -1,13 +1,121 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  max-width: 770px;
+  margin: 0 auto;
 }
+
+a, h1, h2, h3, h4, h5, h6, ul, ol, li, button, input, select, textarea {
+  margin: 0;
+  padding: 0;
+  color: black;
+  list-style-type: none;
+}
+
+a, button, select {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header-nav > ul > li > a {
+  color: rgb(0, 51, 153);
+  font-family: "Teachers", sans-serif;
+  text-transform: uppercase;
+}
+.header-nav > ul > li > a:hover {
+  font-weight: 600;
+}
+
+main {
+  padding-top: 30px;
+  padding-bottom: 257px;
+}
+
+.counter {
+  text-align: center;
+}
+.counter > h1 {
+  font-size: 288px;
+  color: rgb(242, 124, 15);
+  font-family: "Teachers", sans-serif;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  width: 200px;
+  padding: 15px 38px;
+  color: white;
+  font-family: "Teachers", sans-serif;
+  font-size: 24px;
+  border: none;
+}
+
+.btn-plus {
+  background-color: darkblue;
+}
+
+.btn-minus {
+  background-color: orange;
+}
+
+.btn-reset {
+  color: black;
+  background-color: lightgrey;
+}
+
+footer {
+  padding-bottom: 35px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-wrapper p {
+  color: rgb(128, 128, 128);
+  font-size: 16px;
+}
+
+.footer-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer-menu ul a {
+  color: rgb(128, 128, 128);
+  font-size: 16px;
+  font-family: "Teachers", sans-serif;
+}
+.footer-menu ul a:hover {
+  color: black;
+}/*# sourceMappingURL=index.css.map */
